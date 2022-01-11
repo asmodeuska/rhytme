@@ -1,0 +1,3 @@
+# rhytme
+
+Szimpla audio visualizer
