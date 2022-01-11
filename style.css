@@ -1,24 +1,36 @@
-#myProgress {
+h1 {
+    text-align: center;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+h3 {
+    text-align: center;
+}
+
+table {
+    text-align: center;
     position: relative;
-    width: 100%;
-    height: 50px;
-    background-color: rgb(179, 178, 178);
-    border-style: solid 2px;
+    margin: auto;
+    border: groove 2px black;
+    border-radius: 10px;
+    box-shadow: 10px 11px 21px -1px rgba(0, 0, 0, 0.78);
+    -webkit-box-shadow: 10px 11px 21px -1px rgba(0, 0, 0, 0.78);
+    -moz-box-shadow: 10px 11px 21px -1px rgba(0, 0, 0, 0.78);
 }
 
-#myBar {
-    position: absolute;
-    width: 0%;
-    height: 100%;
-    background-color: green;
+audio {
+    border-radius: 30px;
 }
 
-table{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-}
-
-td{
-    width: 1px;
+body {
+    margin: 4px;
+    padding: 1%;
+    background-image: linear-gradient(to bottom right, #d9ed92, #184e77);
+    border: black 2px groove;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: 1px -1px 28px 6px rgba(0, 0, 0, 0.7) inset;
+    -webkit-box-shadow: 1px -1px 28px 6px rgba(0, 0, 0, 0.7) inset;
+    -moz-box-shadow: 1px -1px 28px 6px rgba(0, 0, 0, 0.7) inset;
 }
